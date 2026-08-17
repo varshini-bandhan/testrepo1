@@ -1,0 +1,17 @@
+{
+	"name": "AzureMLService1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMLService",
+		"typeProperties": {
+			"subscriptionId": "518501d0-6dd9-4e89-a3ac-e4cb3b7a4e07",
+			"resourceGroupName": "rg-financial-analytics-synapse",
+			"mlWorkspaceName": "synapse-ml-workspace",
+			"authentication": "MSI"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
